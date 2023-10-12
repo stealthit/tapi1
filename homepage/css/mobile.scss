@@ -1,0 +1,247 @@
+@import "func";
+@include mobile {
+  .mainPage {
+    word-break: keep-all;
+    section {
+      h1 {font-size: 68px;}
+      h2 {font-size: 38px;}
+      h3 {font-size: 30px;}
+      h4 {font-size: 22px;}
+      h5 {font-size: 20px;}
+      h6 {font-size: 15px;}
+
+      .cBr {
+        display: inline;
+        content: '';
+      }
+      .btn-start {    
+        padding: 0 20px;
+        width: 235px;
+        height: 50px;
+        border-radius: 25px;    
+        font-size: 18px;    
+        letter-spacing: -0.36px;          
+        background-position: calc(100% - 20px);    
+      }
+      
+      .sectionWrap {
+        width: 100%;
+        padding: 0 22px;
+              
+        .guideTop {
+          .title {
+            font-size: 38px;
+            letter-spacing: -0.76px;
+          }
+        }
+        
+        .img-home01 {max-width: 114px;max-height: 114px;}
+        .img-home02 {max-width: 227px;max-height: 227px;}
+      }
+    }
+
+    .section1 {      
+      .sectionWrap {        
+        height: 700px;
+        .topLogo {
+          padding-top: 30px;
+        }
+        .topTitle {
+          margin-top: 132px;
+  
+          .title1 {
+            font-size: 22px;            
+            letter-spacing: -1.76px;                      
+          }
+          .title2 {
+            height: 60px;
+            margin-bottom: 30px;
+            font-size: 68px;            
+            letter-spacing: -1.36px;                      
+          }
+        }
+        .topBanner {
+          position: absolute;
+          bottom: 42px;
+          right: 0;
+        }
+      }
+    }
+    .section2 {
+      height: 1263px;
+      padding: 80px 0;
+
+      .sectionWrap {
+        .guideTop {
+          p {
+            width: initial;
+            padding: 0 45px;
+          }
+        }
+        .guideContent {
+          flex-direction: column;
+          width: 100%;
+          height: 758px;
+          margin: 42px 0 0;
+          padding: 42px 20px 0 20px;
+          
+          .img-bubble {
+            position: absolute;
+            max-width: 33px;max-height: 34px;
+            top: 30px;
+            left: 30px;
+          }
+
+          .contDetails1 {
+            width: initial;
+            margin-right: 0;
+            padding: 0 9px 30px 53px;
+            h3 {letter-spacing: -0.6px;margin-bottom: 20px;}
+            p {line-height: 1.43;width: initial;}
+          }
+          .bar {
+            position: initial;
+            width: 100%;
+            height: 0;
+          }
+          .contDetails2 {
+            flex: 1;
+            padding: 30px 0 0;
+            h6 {line-height: 1;}
+            ul.blockText {
+              margin-top: 20px;
+              gap: 20px;
+              li {
+                height: initial;
+              }
+            }
+          }
+          .img-home01 {bottom: 28px;right: 13px;}
+        }
+      }
+
+    }
+    .section3 {
+      height: 1073px;
+      .sectionWrap {
+        flex-direction: column;
+
+        .guideTop {
+          width: initial;
+          margin-bottom: 40px;
+          p {line-height: 1.43;}
+          .img-home02 {            
+            position: initial;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+        .guideContent{
+          height: 440px;
+          padding: 40px 20px;
+
+          ul.contText li {
+            font-size: 22px;          
+            line-height: 1.2;
+            letter-spacing: -0.44px;
+            span {font-size: 42px;letter-spacing: -0.84px;}
+            &:first-child{
+              img {                
+                max-width: 146px;
+                min-height: 11px;
+                left: -4px;
+                bottom: -12px;
+              }
+            }
+            &:nth-child(2) {
+              padding-left: calc(100% - 268px);
+              margin-top: 48px;
+              margin-bottom: 30px;
+              img {
+                max-width: 100px;
+                min-height: 85px;
+                left: calc(100% - 250px);
+                bottom: -18px;       
+              }
+              p {
+                padding-left: calc(100% - 220px);
+              }
+            }
+            &:nth-child(3) {  
+              margin-bottom: 31px;            
+              img {                
+                max-width: 95px;
+                min-height: 29px;
+                left: -10px;
+                bottom: -22px;
+              }
+            }
+            &:last-child {   
+              padding-left: calc(100% - 168px);            
+              img {                
+                max-width: 155px;
+                min-height: 53px;
+                left: calc(100% - 190px);
+                top: -7px;          
+              }
+            }
+          }
+        }
+      }
+    }
+    .section4 {
+      height: 1387px;
+      padding: 80px 0;
+      .sectionWrap {
+        .guideContent {
+          flex-direction: column;
+        }
+      }
+    }
+    .section5, .section6, .section7, .section8{
+      .sectionWrap {
+        padding: 60px 22px 22px;
+        height: initial;
+        flex-direction: column;
+        .guideContent {
+          order: 0;
+          margin-left: initial;
+          .img-bubble {max-width: 38px;max-height: 40px;}
+          h3 {
+            font-size: 28px;
+            letter-spacing: 0.56px;
+            margin: 30px 0;
+          }
+        }
+        .imgBox {
+          margin-top: 30px;
+          justify-content: initial;
+          order: 1;
+          img {max-width: 316px;min-height: 358px;}
+        }        
+      }
+    }
+    .section9 {
+      .sectionWrap {
+        h3 {
+          font-size: 27px;
+          line-height: 1.48;
+          letter-spacing: -2.16px;
+        }
+        .title {
+          font-size: 48px;
+          letter-spacing: -0.96px;
+        }
+        .bottomLogo {bottom: 30px;}
+      }
+    }
+  }
+  .img-logo {    
+    max-width: 119px;
+    max-height: 29px;    
+  }
+  .img-banner {    
+    max-width: 278px;
+    max-height: 185px;    
+  }  
+}

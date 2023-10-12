@@ -1,0 +1,464 @@
+@import url("reset.css");
+.mainPage {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background: #fff;
+}
+.mainPage section h1 {
+  font-size: 104px;
+}
+.mainPage section h2 {
+  font-size: 62px;
+}
+.mainPage section h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+}
+.mainPage section h4 {
+  font-size: 26px;
+}
+.mainPage section h5 {
+  font-size: 20px;
+}
+.mainPage section h6 {
+  font-size: 15px;
+}
+.mainPage section .cBr {
+  display: block;
+  content: "";
+}
+.mainPage section .btn-start {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  width: 280px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #ff3691;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.44px;
+  color: #fff;
+  background-image: url(../assets/img_start_arrow@3x.png);
+  background-position: calc(100% - 30px);
+  background-repeat: no-repeat;
+  background-size: 82px 16px;
+}
+.mainPage section .sectionWrap {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.mainPage section .sectionWrap .guideTop {
+  text-align: center;
+}
+.mainPage section .sectionWrap .guideTop .seq {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+  text-align: inherit;
+  color: #7f7f7f;
+}
+.mainPage section .sectionWrap .guideTop .title {
+  margin-bottom: 10px;
+  font-size: 62px;
+  font-weight: 600;
+  letter-spacing: -1.24px;
+  text-align: inherit;
+  color: #000;
+}
+.mainPage section .sectionWrap .guideTop .title span {
+  color: #9300c3;
+}
+.mainPage section .sectionWrap p {
+  word-break: keep-all;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: -0.28px;
+  text-align: inherit;
+  color: #404040;
+}
+.mainPage .section1 .sectionWrap {
+  position: relative;
+  height: 840px;
+}
+.mainPage .section1 .sectionWrap .topLogo {
+  padding-top: 34px;
+}
+.mainPage .section1 .sectionWrap .topTitle {
+  margin-top: 210px;
+}
+.mainPage .section1 .sectionWrap .topTitle .title1 {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -2.08px;
+  color: #7f7f7f;
+}
+.mainPage .section1 .sectionWrap .topTitle .title2 {
+  height: 114px;
+  margin-bottom: 35px;
+  font-size: 104px;
+  font-weight: 800;
+  letter-spacing: -2.08px;
+  color: #000;
+  line-height: 0.8;
+}
+.mainPage .section1 .sectionWrap .topTitle .title2 span {
+  color: #9300c3;
+}
+.mainPage .section1 .sectionWrap .topBanner {
+  position: absolute;
+  bottom: 108px;
+  right: 0;
+}
+.mainPage .section2 {
+  height: 790px;
+  background: #f6f6f6;
+  padding: 100px 0;
+}
+.mainPage .section2 .sectionWrap {
+  display: flex;
+  flex-direction: column;
+}
+.mainPage .section2 .sectionWrap .guideTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainPage .section2 .sectionWrap .guideTop p {
+  width: 574px;
+}
+.mainPage .section2 .sectionWrap .guideContent {
+  display: flex;
+  position: relative;
+  width: 1140px;
+  height: 310px;
+  margin: 61px 0 0;
+  padding: 40px 24px 40px 97px;
+  border-radius: 40px;
+  background-color: #fff;
+}
+.mainPage .section2 .sectionWrap .guideContent .img-bubble {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.mainPage .section2 .sectionWrap .guideContent .img-home01 {
+  position: absolute;
+  bottom: 48px;
+  right: 35px;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails1 {
+  width: 469px;
+  padding-top: 20px;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails1 h3 {
+  line-height: 1.1;
+  margin-bottom: 33px;
+  letter-spacing: -0.64px;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails1 p {
+  width: 359px;
+}
+.mainPage .section2 .sectionWrap .guideContent .bar {
+  position: absolute;
+  top: 40px;
+  left: 569px;
+  width: 0;
+  height: 228px;
+  border: solid 1px #7f7f7f;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails2 {
+  padding-left: 30px;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails2 h6 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #ff3691;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails2 ul.blockText {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mainPage .section2 .sectionWrap .guideContent .contDetails2 ul.blockText li {
+  height: 30px;
+  padding: 6px 10px 5px;
+  border-radius: 6px;
+  background-color: #f6f6f6;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: -0.32px;
+  text-align: left;
+  color: #404040;
+}
+.mainPage .section3 {
+  height: 720px;
+  padding: 100px 0;
+}
+.mainPage .section3 .sectionWrap {
+  height: 520px;
+  display: flex;
+}
+.mainPage .section3 .sectionWrap .guideTop {
+  position: relative;
+  padding-top: 20px;
+  width: 390px;
+  text-align: left;
+}
+.mainPage .section3 .sectionWrap .guideTop .img-home02 {
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+}
+.mainPage .section3 .sectionWrap .guideContent {
+  flex: 1;
+  padding: 79px 71px 85px 70px;
+  border-radius: 40px;
+  background-color: #faf7fb;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li {
+  position: relative;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 0.71;
+  letter-spacing: -0.62px;
+  color: #000;
+  text-align: left;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li p {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  padding-left: 40px;
+  line-height: 1.2;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li img {
+  z-index: 1;
+  position: absolute;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li span {
+  position: relative;
+  z-index: 2;
+  font-size: 53px;
+  font-weight: 600;
+  letter-spacing: -1.06px;
+  color: #404040;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:first-child img {
+  content: url(../assets/img_02_text_01@3x.png);
+  max-width: 206px;
+  min-height: 16px;
+  left: -4px;
+  bottom: -27px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(2) {
+  padding-left: 230px;
+  margin-top: 55px;
+  margin-bottom: 33px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(2) img {
+  content: url(../assets/img_02_text_02@3x.png);
+  max-width: 130px;
+  min-height: 110px;
+  left: 230px;
+  bottom: -25px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(3) {
+  margin-bottom: 46px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(3) img {
+  content: url(../assets/img_02_text_03@3x.png);
+  max-width: 121px;
+  min-height: 37px;
+  left: -10px;
+  bottom: -37px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:last-child {
+  padding-left: 230px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:last-child span {
+  width: 193px;
+  height: 66px;
+  color: white;
+  margin-right: 10px;
+}
+.mainPage .section3 .sectionWrap .guideContent ul.contText li:last-child img {
+  content: url(../assets/img_02_text_04@3x.png);
+  max-width: 193px;
+  min-height: 66px;
+  left: 200px;
+  top: -19px;
+}
+.mainPage .section4 {
+  height: 755px;
+  padding: 100px 0;
+}
+.mainPage .section4 .guideContent {
+  padding-top: 60px;
+  display: flex;
+  gap: 36px;
+}
+.mainPage .section4 .guideContent .contSubBox {
+  height: 340px;
+  flex: 1;
+}
+.mainPage .section4 .guideContent .contSubBox .boxTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 20px 20px 0 0;
+  background-color: #ff3691;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #fff;
+}
+.mainPage .section4 .guideContent .contSubBox .boxDetails {
+  height: 290px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  border: solid 1px #d9d9d9;
+  border-top: none;
+  background-color: #fff;
+}
+.mainPage .section4 .guideContent .contSubBox .boxDetails img {
+  max-width: 130px;
+  max-height: 130px;
+}
+.mainPage .section4 .guideContent .contSubBox .boxDetails .boxSubject {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.11;
+  letter-spacing: -0.36px;
+  text-align: center;
+  color: #000;
+}
+.mainPage .section4 .guideContent .contSubBox .boxDetails p {
+  font-size: 13px;
+  line-height: 1.54;
+  letter-spacing: -0.26px;
+  text-align: center;
+  color: #7f7f7f;
+}
+.mainPage .section5 .sectionWrap, .mainPage .section6 .sectionWrap, .mainPage .section7 .sectionWrap, .mainPage .section8 .sectionWrap {
+  display: flex;
+  height: 700px;
+}
+.mainPage .section5 .sectionWrap .guideContent, .mainPage .section6 .sectionWrap .guideContent, .mainPage .section7 .sectionWrap .guideContent, .mainPage .section8 .sectionWrap .guideContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.mainPage .section5 .sectionWrap .guideContent h3, .mainPage .section6 .sectionWrap .guideContent h3, .mainPage .section7 .sectionWrap .guideContent h3, .mainPage .section8 .sectionWrap .guideContent h3 {
+  margin-top: 34px;
+  margin-bottom: 40px;
+  letter-spacing: -0.64px;
+  line-height: 1.2;
+  text-align: left;
+}
+.mainPage .section5 .sectionWrap .guideContent p, .mainPage .section6 .sectionWrap .guideContent p, .mainPage .section7 .sectionWrap .guideContent p, .mainPage .section8 .sectionWrap .guideContent p {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #404040;
+}
+.mainPage .section5 .sectionWrap .imgBox, .mainPage .section6 .sectionWrap .imgBox, .mainPage .section7 .sectionWrap .imgBox, .mainPage .section8 .sectionWrap .imgBox {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.mainPage .section5 .sectionWrap .imgBox img, .mainPage .section6 .sectionWrap .imgBox img, .mainPage .section7 .sectionWrap .imgBox img, .mainPage .section8 .sectionWrap .imgBox img {
+  max-width: 550px;
+  min-height: 624px;
+}
+.mainPage :is(.section6, .section8) .guideContent {
+  margin-left: 114px;
+}
+.mainPage :is(.section6, .section8) .imgBox {
+  justify-content: end;
+}
+.mainPage .section9 {
+  position: relative;
+  height: 750px;
+  padding-top: 180px;
+}
+.mainPage .section9 .sectionWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainPage .section9 .sectionWrap h3 {
+  line-height: 1.44;
+  letter-spacing: -2.56px;
+  text-align: center;
+}
+.mainPage .section9 .sectionWrap .title {
+  margin-top: 40px;
+  margin-bottom: 21px;
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -1.04px;
+  text-align: center;
+  color: #000;
+}
+.mainPage .section9 .sectionWrap .title span {
+  color: #9300c3;
+}
+.mainPage .section9 .sectionWrap .bottomLogo {
+  position: absolute;
+  bottom: 40px;
+}
+.mainPage .section10 {
+  width: 100%;
+  height: 14px;
+  background-color: #9300c3;
+}
+
+.img-logo {
+  content: url(../assets/img_tapis_logo@3x.png);
+  max-width: 150px;
+  max-height: 36px;
+}
+
+.img-banner {
+  content: url(../assets/img_banner@3x.png);
+  max-width: 438px;
+  max-height: 292px;
+}
+
+.img-bubble {
+  content: url(../assets/img_bubble@3x.png);
+  max-width: 45px;
+  max-height: 47px;
+}
+
+.img-home01 {
+  content: url(../assets/img_01@3x.png);
+  max-width: 163px;
+  max-height: 163px;
+}
+
+.img-home02 {
+  content: url(../assets/img_02@3x.png);
+  max-width: 257px;
+  max-height: 257px;
+}/*# sourceMappingURL=styles.css.map */

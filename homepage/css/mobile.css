@@ -1,0 +1,257 @@
+@media (max-width: 767px) {
+  .mainPage {
+    word-break: keep-all;
+  }
+  .mainPage section h1 {
+    font-size: 68px;
+  }
+  .mainPage section h2 {
+    font-size: 38px;
+  }
+  .mainPage section h3 {
+    font-size: 30px;
+  }
+  .mainPage section h4 {
+    font-size: 22px;
+  }
+  .mainPage section h5 {
+    font-size: 20px;
+  }
+  .mainPage section h6 {
+    font-size: 15px;
+  }
+  .mainPage section .cBr {
+    display: inline;
+    content: "";
+  }
+  .mainPage section .btn-start {
+    padding: 0 20px;
+    width: 235px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    letter-spacing: -0.36px;
+    background-position: calc(100% - 20px);
+  }
+  .mainPage section .sectionWrap {
+    width: 100%;
+    padding: 0 22px;
+  }
+  .mainPage section .sectionWrap .guideTop .title {
+    font-size: 38px;
+    letter-spacing: -0.76px;
+  }
+  .mainPage section .sectionWrap .img-home01 {
+    max-width: 114px;
+    max-height: 114px;
+  }
+  .mainPage section .sectionWrap .img-home02 {
+    max-width: 227px;
+    max-height: 227px;
+  }
+  .mainPage .section1 .sectionWrap {
+    height: 700px;
+  }
+  .mainPage .section1 .sectionWrap .topLogo {
+    padding-top: 30px;
+  }
+  .mainPage .section1 .sectionWrap .topTitle {
+    margin-top: 132px;
+  }
+  .mainPage .section1 .sectionWrap .topTitle .title1 {
+    font-size: 22px;
+    letter-spacing: -1.76px;
+  }
+  .mainPage .section1 .sectionWrap .topTitle .title2 {
+    height: 60px;
+    margin-bottom: 30px;
+    font-size: 68px;
+    letter-spacing: -1.36px;
+  }
+  .mainPage .section1 .sectionWrap .topBanner {
+    position: absolute;
+    bottom: 42px;
+    right: 0;
+  }
+  .mainPage .section2 {
+    height: 1263px;
+    padding: 80px 0;
+  }
+  .mainPage .section2 .sectionWrap .guideTop p {
+    width: initial;
+    padding: 0 45px;
+  }
+  .mainPage .section2 .sectionWrap .guideContent {
+    flex-direction: column;
+    width: 100%;
+    height: 758px;
+    margin: 42px 0 0;
+    padding: 42px 20px 0 20px;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .img-bubble {
+    position: absolute;
+    max-width: 33px;
+    max-height: 34px;
+    top: 30px;
+    left: 30px;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails1 {
+    width: initial;
+    margin-right: 0;
+    padding: 0 9px 30px 53px;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails1 h3 {
+    letter-spacing: -0.6px;
+    margin-bottom: 20px;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails1 p {
+    line-height: 1.43;
+    width: initial;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .bar {
+    position: initial;
+    width: 100%;
+    height: 0;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails2 {
+    flex: 1;
+    padding: 30px 0 0;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails2 h6 {
+    line-height: 1;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails2 ul.blockText {
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .contDetails2 ul.blockText li {
+    height: initial;
+  }
+  .mainPage .section2 .sectionWrap .guideContent .img-home01 {
+    bottom: 28px;
+    right: 13px;
+  }
+  .mainPage .section3 {
+    height: 1073px;
+  }
+  .mainPage .section3 .sectionWrap {
+    flex-direction: column;
+  }
+  .mainPage .section3 .sectionWrap .guideTop {
+    width: initial;
+    margin-bottom: 40px;
+  }
+  .mainPage .section3 .sectionWrap .guideTop p {
+    line-height: 1.43;
+  }
+  .mainPage .section3 .sectionWrap .guideTop .img-home02 {
+    position: initial;
+    display: block;
+    margin: 0 auto;
+  }
+  .mainPage .section3 .sectionWrap .guideContent {
+    height: 440px;
+    padding: 40px 20px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li {
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -0.44px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li span {
+    font-size: 42px;
+    letter-spacing: -0.84px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:first-child img {
+    max-width: 146px;
+    min-height: 11px;
+    left: -4px;
+    bottom: -12px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(2) {
+    padding-left: calc(100% - 268px);
+    margin-top: 48px;
+    margin-bottom: 30px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(2) img {
+    max-width: 100px;
+    min-height: 85px;
+    left: calc(100% - 250px);
+    bottom: -18px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(2) p {
+    padding-left: calc(100% - 220px);
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(3) {
+    margin-bottom: 31px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:nth-child(3) img {
+    max-width: 95px;
+    min-height: 29px;
+    left: -10px;
+    bottom: -22px;
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:last-child {
+    padding-left: calc(100% - 168px);
+  }
+  .mainPage .section3 .sectionWrap .guideContent ul.contText li:last-child img {
+    max-width: 155px;
+    min-height: 53px;
+    left: calc(100% - 190px);
+    top: -7px;
+  }
+  .mainPage .section4 {
+    height: 1387px;
+    padding: 80px 0;
+  }
+  .mainPage .section4 .sectionWrap .guideContent {
+    flex-direction: column;
+  }
+  .mainPage .section5 .sectionWrap, .mainPage .section6 .sectionWrap, .mainPage .section7 .sectionWrap, .mainPage .section8 .sectionWrap {
+    padding: 60px 22px 22px;
+    height: initial;
+    flex-direction: column;
+  }
+  .mainPage .section5 .sectionWrap .guideContent, .mainPage .section6 .sectionWrap .guideContent, .mainPage .section7 .sectionWrap .guideContent, .mainPage .section8 .sectionWrap .guideContent {
+    order: 0;
+    margin-left: initial;
+  }
+  .mainPage .section5 .sectionWrap .guideContent .img-bubble, .mainPage .section6 .sectionWrap .guideContent .img-bubble, .mainPage .section7 .sectionWrap .guideContent .img-bubble, .mainPage .section8 .sectionWrap .guideContent .img-bubble {
+    max-width: 38px;
+    max-height: 40px;
+  }
+  .mainPage .section5 .sectionWrap .guideContent h3, .mainPage .section6 .sectionWrap .guideContent h3, .mainPage .section7 .sectionWrap .guideContent h3, .mainPage .section8 .sectionWrap .guideContent h3 {
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    margin: 30px 0;
+  }
+  .mainPage .section5 .sectionWrap .imgBox, .mainPage .section6 .sectionWrap .imgBox, .mainPage .section7 .sectionWrap .imgBox, .mainPage .section8 .sectionWrap .imgBox {
+    margin-top: 30px;
+    justify-content: initial;
+    order: 1;
+  }
+  .mainPage .section5 .sectionWrap .imgBox img, .mainPage .section6 .sectionWrap .imgBox img, .mainPage .section7 .sectionWrap .imgBox img, .mainPage .section8 .sectionWrap .imgBox img {
+    max-width: 316px;
+    min-height: 358px;
+  }
+  .mainPage .section9 .sectionWrap h3 {
+    font-size: 27px;
+    line-height: 1.48;
+    letter-spacing: -2.16px;
+  }
+  .mainPage .section9 .sectionWrap .title {
+    font-size: 48px;
+    letter-spacing: -0.96px;
+  }
+  .mainPage .section9 .sectionWrap .bottomLogo {
+    bottom: 30px;
+  }
+  .img-logo {
+    max-width: 119px;
+    max-height: 29px;
+  }
+  .img-banner {
+    max-width: 278px;
+    max-height: 185px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,73 @@
+@media (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+    border-radius: initial;
+    padding: 100px 20px 20px 20px;
+  }
+  .wrapper .inLeader {
+    margin-bottom: 20px;
+    font-size: 48px;
+    letter-spacing: -0.96px;
+  }
+  .wrapper p {
+    font-size: 18px;
+    letter-spacing: -0.36px;
+  }
+  .wrapper input[type=text] {
+    height: 54px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+  .wrapper .btn-main, .wrapper .btn-white {
+    font-size: 20px;
+  }
+  .start1 .content {
+    flex: 1;
+    justify-content: end;
+    margin-top: 85px;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .start1 .content .btn-target {
+    margin-top: 0;
+  }
+  .start2 .content {
+    flex: 1;
+    width: 100%;
+    gap: 16px;
+  }
+  .start2 .content .highlight {
+    font-size: 20px;
+    letter-spacing: -0.4px;
+  }
+  .message .content {
+    flex: 1;
+    padding-top: 100px;
+  }
+  .message .btn-main {
+    margin-top: 0;
+  }
+  .diagnosis {
+    padding: 20px;
+  }
+  .diagnosis .progressWrap .status {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.14;
+    letter-spacing: -0.28px;
+  }
+  .diagnosis .content .itemsText {
+    font-size: 20px;
+    margin-bottom: 72px;
+  }
+  .diagnosis.desc .content {
+    width: 100%;
+  }
+  .diagnosis.desc .btnGroup {
+    width: 100%;
+  }
+  .diagnosis.desc .btnGroup button {
+    flex: 1;
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper start2">
+    <div class="inLeader"><span>In</span>Leader</div>    
+    <div class="content">   
+      <div class="highlight">회원번호가 어떻게 되시나요?</div>
+      <input type="text" name="" id="" value="" placeholder="ex. 삼성000001">
+    </div>
+    <div class="content next">   
+      <div class="highlight">반갑습니다.</div>
+      <p>평소 ㅇㅇㅇ님 스스로에 대해<br> 
+        생각하시는 바를 솔직하게 응답해주세요.<br>
+        그럼, 다음 버튼을 눌러 시작해볼까요?</p>   
+    </div>    
+    <button class="btn-main btn-next">다음</button>
+  </div>
+  
+  <script>
+    document.querySelector(".btn-next").addEventListener("click",function(){
+      let el1 = document.getElementsByClassName("content")[0];      
+      let el2 = document.getElementsByClassName("next")[0];     
+      let el2Style = window.getComputedStyle(el2);
+
+      // 회원번호 입력화면인 경우 인사화면으로
+      if(el2Style.display == 'none'){ 		
+        el1.style.display = 'none'; 	
+        el2.style.display = 'block'; 	
+      }else{ 	
+        // 진단화면 페이지로
+        location.href = "diagnosis.html";        	
+      } 
+    })
+  </script>
+</body>
+</html>

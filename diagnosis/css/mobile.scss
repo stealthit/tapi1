@@ -1,0 +1,80 @@
+@import "func";
+
+@include mobile {
+  .wrapper {
+    width: 100%;
+    border-radius: initial;    
+    padding: 100px 20px 20px 20px;
+
+    .inLeader {
+      margin-bottom: 20px;
+      font-size: 48px;
+      letter-spacing: -0.96px;
+    }
+
+    p {font-size: 18px;letter-spacing: -0.36px;}
+    input[type=text] {
+      height: 54px;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: -0.32px;
+    }
+
+    .btn-main, .btn-white {font-size: 20px;}
+  }
+
+  .start1 {  
+    .content {
+      flex: 1;
+      justify-content: end;
+      margin-top: 85px;
+      flex-direction: column;
+      gap: 14px;
+      .btn-target {margin-top: 0;}
+    }
+  }
+  .start2 {
+    .content{
+      flex: 1;
+      width: 100%;
+      gap: 16px;
+      .highlight {
+        font-size: 20px;
+        letter-spacing: -0.4px;
+      }
+    }
+  }
+  .message {
+    .content {
+      flex: 1;
+      padding-top: 100px;
+    }
+    .btn-main {margin-top: 0;}
+  }
+  .diagnosis {
+    padding: 20px;
+    .progressWrap {
+      .status {        
+        font-size: 14px;
+        font-weight: bold;  
+        line-height: 2.14;
+        letter-spacing: -0.28px;
+      }
+    }
+    .content {
+      .itemsText {
+        font-size: 20px;
+        margin-bottom: 72px;
+      }
+    }
+    &.desc {
+      .content {width: 100%;}
+      .btnGroup {
+        width: 100%;
+        button {
+          flex: 1;
+        }
+      }
+    }
+  }
+}

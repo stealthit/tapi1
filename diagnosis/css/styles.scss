@@ -20,7 +20,7 @@ body {
     letter-spacing: -1.2px;   
     line-height: 1.2; 
     color: #000;
-    span {color: #9300c3;}
+    span {color: $color-me;}
   }
 
   p {
@@ -44,16 +44,16 @@ body {
     &::placeholder {color: #ccc}
   }  
 
-  .clMe {color: #9300c3 !important;}
-  .bgMe {background-color: #9300c3 !important;}
-  .clOther {color: #ff9443 !important;}  
-  .bgOther {background-color: #ff9443 !important;}  
+  .clMe {color: $color-me !important;}
+  .bgMe {background-color: $color-me !important;}
+  .clOther {color: $color-others !important;}  
+  .bgOther {background-color: $color-others !important;}  
 
   .highlight {
     font-size: 24px;
     font-weight: 800;    
     letter-spacing: -0.48px;    
-    color: #9300c3;
+    color: $color-me;
   }
 
   .btn-main {
@@ -65,7 +65,7 @@ body {
     letter-spacing: -0.44px;
     text-align: center;
     color: #fff;  
-    background: #9300c3;
+    background: $color-me;
   }
   .btn-white {
     width: 300px;
@@ -132,7 +132,7 @@ body {
     letter-spacing: -0.48px;
     text-align: center;
     color: #000;
-    span {color: #9300c3;}
+    span {color: $color-me;}
   }  
   .content {
     display: flex;
@@ -167,7 +167,7 @@ body {
         height: 26px;
         border-radius: 13px;
         border: 0;
-        background-color: #9300c3;
+        background-color: $color-me;
         background-image: url(../assets/img_run@3x.png);
         background-repeat: no-repeat;
         background-size: 30px 26px;
@@ -177,8 +177,7 @@ body {
         border: 0;
         height: 13px;
         border-radius: 20px;
-      }
-      // &.oProgress::-webkit-progress-value {background-color: #ff9443;}
+      }      
     }
     .status {
       height: 21px;
@@ -203,7 +202,7 @@ body {
       line-height: normal;
       letter-spacing: -0.48px;
       text-align: center;
-      color: #9300c3;
+      color: $color-me;
     }
     .selectWrap {
       @include flex_center;
@@ -218,7 +217,7 @@ body {
         font-weight: 500;      
         letter-spacing: -2px;
         text-align: center;    
-        color: #9300c3;    
+        color: $color-me;    
       }
       ul.fullCircle {
         position: absolute;
@@ -243,7 +242,7 @@ body {
           &.on {
             border: none;
             color: #fff;
-            background: #9300c3;
+            background: $color-me;
           }
 
           &:first-child {
@@ -334,8 +333,8 @@ body {
 
 }
 .wrapper.others {
-  progress::-webkit-progress-value {background-color: #ff9443 !important;}
-  .selScore, .itemsText, .clMain {color: #ff9443 !important;}  
-  ul.fullCircle li.on, .btn-main {background-color: #ff9443 !important;}  
+  progress::-webkit-progress-value {background-color: $color-others !important;}
+  .selScore, .itemsText, .clMain {color: $color-others !important;}  
+  ul.fullCircle li.on, .btn-main {background-color: $color-others !important;}  
 }
 

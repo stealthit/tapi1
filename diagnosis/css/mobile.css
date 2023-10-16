@@ -1,5 +1,9 @@
 @media (max-width: 767px) {
+  body {
+    height: 768px;
+  }
   .wrapper {
+    overflow: scroll;
     width: 100%;
     border-radius: initial;
     padding: 100px 20px 20px 20px;

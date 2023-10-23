@@ -141,10 +141,24 @@ page {
   &:nth-child(6), &:nth-child(7) {
     section#content {padding-top: px-to-cm(65);}
   }
-  @for $i from 1 through 100 {
-    .score#{$i} {
-      width : 1% * $i;
-    }
+
+  img.semicircle0-20 {    
+    content: url(../assets/graph_03@3x.png);
+    max-width: px-to-cm(557);
+    max-height: px-to-cm(300);
+    z-index: 0;
+  }
+  img.semicircle20-80 {
+    content: url(../assets/graph_01@3x.png);
+    max-width: px-to-cm(557);
+    max-height: px-to-cm(300);
+    z-index: 0;
+  }
+  img.semicircle80-100 {
+    content: url(../assets/graph_02@3x.png);
+    max-width: px-to-cm(557);
+    max-height: px-to-cm(300);
+    z-index: 0;
   }
 
   .cl-ip45 {background: #9300C3; color: #fff;}
@@ -650,7 +664,50 @@ ul.fieldItem {
       .circleGraph {
         width: px-to-cm(567);
         height: px-to-cm(391);
-
+        .graphValue {
+          height: px-to-cm(325) ;
+          padding-top: px-to-cm(25);
+          position: relative;          
+          .pinScore {
+            position: absolute;
+            top: px-to-cm(-20);            
+            left: 0;
+            font-size: px-to-cm(50);
+            font-weight: 500;  
+            text-align: left;
+            color: #9300c3;
+            &.center {left: calc(50% - px-to-cm(50));top: px-to-cm(-50)}
+            &.right {left: calc(100% - px-to-cm(105));}
+          }
+          img.imgPin {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: url(../assets/pin_3@3x.png);
+            max-width: px-to-cm(292);
+            max-height: px-to-cm(27);
+            // transform: rotate(117deg);
+            transform-origin: right center;
+          }
+          .txt0, .txt100 {
+            left: px-to-cm(9);
+            bottom: px-to-cm(-54);
+            position: absolute;
+            font-size: px-to-cm(36);
+            font-weight: 500;            
+            letter-spacing: px-to-cm(-0.72);
+            text-align: center;
+            color: #000;
+            &.txt100 {left: calc(100% - px-to-cm(60));}
+          }
+        }
+        .graphTitle {
+          width: 100%;
+          margin-top: px-to-cm(11);          
+          font-size: px-to-cm(46);
+          color: #404040;
+          text-align: center;
+        }
       }
       .totalText {
         display: flex;
@@ -888,6 +945,22 @@ page:nth-child(7) {
         .circleGraph {
           width: px-to-cm(482);
           height: px-to-cm(310);  
+
+          .graphValue {
+            padding-top: 0;
+            width: px-to-cm(458);
+            height: px-to-cm(249);
+            img:not(.imgPin){
+              max-width: px-to-cm(458);
+              max-height: px-to-cm(249);
+            }
+            img.imgPin {
+              max-width: px-to-cm(240);
+            }
+            .pinScore.center {
+              top: px-to-cm(-60);
+            }
+          }
         }
         .totalText {
           white-space: nowrap;

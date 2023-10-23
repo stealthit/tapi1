@@ -141,305 +141,23 @@ page section .inLeader span {
 page:nth-child(6) section#content, page:nth-child(7) section#content {
   padding-top: 0.550333355cm;
 }
-page .score1 {
-  width: 1%;
-}
-page .score2 {
-  width: 2%;
-}
-page .score3 {
-  width: 3%;
-}
-page .score4 {
-  width: 4%;
-}
-page .score5 {
-  width: 5%;
-}
-page .score6 {
-  width: 6%;
-}
-page .score7 {
-  width: 7%;
-}
-page .score8 {
-  width: 8%;
-}
-page .score9 {
-  width: 9%;
-}
-page .score10 {
-  width: 10%;
-}
-page .score11 {
-  width: 11%;
-}
-page .score12 {
-  width: 12%;
-}
-page .score13 {
-  width: 13%;
-}
-page .score14 {
-  width: 14%;
-}
-page .score15 {
-  width: 15%;
-}
-page .score16 {
-  width: 16%;
-}
-page .score17 {
-  width: 17%;
-}
-page .score18 {
-  width: 18%;
-}
-page .score19 {
-  width: 19%;
-}
-page .score20 {
-  width: 20%;
-}
-page .score21 {
-  width: 21%;
-}
-page .score22 {
-  width: 22%;
-}
-page .score23 {
-  width: 23%;
-}
-page .score24 {
-  width: 24%;
-}
-page .score25 {
-  width: 25%;
-}
-page .score26 {
-  width: 26%;
-}
-page .score27 {
-  width: 27%;
-}
-page .score28 {
-  width: 28%;
-}
-page .score29 {
-  width: 29%;
-}
-page .score30 {
-  width: 30%;
-}
-page .score31 {
-  width: 31%;
-}
-page .score32 {
-  width: 32%;
-}
-page .score33 {
-  width: 33%;
-}
-page .score34 {
-  width: 34%;
-}
-page .score35 {
-  width: 35%;
-}
-page .score36 {
-  width: 36%;
-}
-page .score37 {
-  width: 37%;
-}
-page .score38 {
-  width: 38%;
-}
-page .score39 {
-  width: 39%;
-}
-page .score40 {
-  width: 40%;
-}
-page .score41 {
-  width: 41%;
-}
-page .score42 {
-  width: 42%;
-}
-page .score43 {
-  width: 43%;
-}
-page .score44 {
-  width: 44%;
-}
-page .score45 {
-  width: 45%;
-}
-page .score46 {
-  width: 46%;
-}
-page .score47 {
-  width: 47%;
-}
-page .score48 {
-  width: 48%;
-}
-page .score49 {
-  width: 49%;
-}
-page .score50 {
-  width: 50%;
-}
-page .score51 {
-  width: 51%;
-}
-page .score52 {
-  width: 52%;
-}
-page .score53 {
-  width: 53%;
-}
-page .score54 {
-  width: 54%;
-}
-page .score55 {
-  width: 55%;
-}
-page .score56 {
-  width: 56%;
-}
-page .score57 {
-  width: 57%;
-}
-page .score58 {
-  width: 58%;
-}
-page .score59 {
-  width: 59%;
-}
-page .score60 {
-  width: 60%;
-}
-page .score61 {
-  width: 61%;
-}
-page .score62 {
-  width: 62%;
-}
-page .score63 {
-  width: 63%;
-}
-page .score64 {
-  width: 64%;
-}
-page .score65 {
-  width: 65%;
-}
-page .score66 {
-  width: 66%;
-}
-page .score67 {
-  width: 67%;
-}
-page .score68 {
-  width: 68%;
-}
-page .score69 {
-  width: 69%;
-}
-page .score70 {
-  width: 70%;
-}
-page .score71 {
-  width: 71%;
-}
-page .score72 {
-  width: 72%;
-}
-page .score73 {
-  width: 73%;
-}
-page .score74 {
-  width: 74%;
-}
-page .score75 {
-  width: 75%;
-}
-page .score76 {
-  width: 76%;
-}
-page .score77 {
-  width: 77%;
-}
-page .score78 {
-  width: 78%;
-}
-page .score79 {
-  width: 79%;
-}
-page .score80 {
-  width: 80%;
-}
-page .score81 {
-  width: 81%;
-}
-page .score82 {
-  width: 82%;
-}
-page .score83 {
-  width: 83%;
-}
-page .score84 {
-  width: 84%;
-}
-page .score85 {
-  width: 85%;
-}
-page .score86 {
-  width: 86%;
-}
-page .score87 {
-  width: 87%;
-}
-page .score88 {
-  width: 88%;
-}
-page .score89 {
-  width: 89%;
-}
-page .score90 {
-  width: 90%;
-}
-page .score91 {
-  width: 91%;
-}
-page .score92 {
-  width: 92%;
-}
-page .score93 {
-  width: 93%;
-}
-page .score94 {
-  width: 94%;
-}
-page .score95 {
-  width: 95%;
-}
-page .score96 {
-  width: 96%;
-}
-page .score97 {
-  width: 97%;
-}
-page .score98 {
-  width: 98%;
-}
-page .score99 {
-  width: 99%;
-}
-page .score100 {
-  width: 100%;
+page img.semicircle0-20 {
+  content: url(../assets/graph_03@3x.png);
+  max-width: 4.715933519cm;
+  max-height: 2.5400001cm;
+  z-index: 0;
+}
+page img.semicircle20-80 {
+  content: url(../assets/graph_01@3x.png);
+  max-width: 4.715933519cm;
+  max-height: 2.5400001cm;
+  z-index: 0;
+}
+page img.semicircle80-100 {
+  content: url(../assets/graph_02@3x.png);
+  max-width: 4.715933519cm;
+  max-height: 2.5400001cm;
+  z-index: 0;
 }
 page .cl-ip45 {
   background: #9300C3;
@@ -1076,6 +794,56 @@ ul.fieldItem > li:nth-child(3) > ul.itemDetail > li > .subTitle {
   width: 4.800600189cm;
   height: 3.310466797cm;
 }
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue {
+  height: 2.751666775cm;
+  padding-top: 0.211666675cm;
+  position: relative;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore {
+  position: absolute;
+  top: -0.16933334cm;
+  left: 0;
+  font-size: 0.42333335cm;
+  font-weight: 500;
+  text-align: left;
+  color: #9300c3;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.center {
+  left: calc(50% - 0.42333335cm);
+  top: -0.42333335cm;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.right {
+  left: calc(100% - 0.889000035cm);
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue img.imgPin {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: url(../assets/pin_3@3x.png);
+  max-width: 2.472266764cm;
+  max-height: 0.228600009cm;
+  transform-origin: right center;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .txt0, .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .txt100 {
+  left: 0.076200003cm;
+  bottom: -0.457200018cm;
+  position: absolute;
+  font-size: 0.304800012cm;
+  font-weight: 500;
+  letter-spacing: -0.0060960002cm;
+  text-align: center;
+  color: #000;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .txt0.txt100, .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .txt100.txt100 {
+  left: calc(100% - 0.50800002cm);
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphTitle {
+  width: 100%;
+  margin-top: 0.093133337cm;
+  font-size: 0.389466682cm;
+  color: #404040;
+  text-align: center;
+}
 .resultWrapper .resultListBox .totalScore .totalText {
   display: flex;
   flex-direction: column;
@@ -1331,6 +1099,21 @@ page:nth-child(7) .resultWrapper .resultListBox .totalScore {
 page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph {
   width: 4.080933494cm;
   height: 2.62466677cm;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue {
+  padding-top: 0;
+  width: 3.877733486cm;
+  height: 2.108200083cm;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue img:not(.imgPin) {
+  max-width: 3.877733486cm;
+  max-height: 2.108200083cm;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue img.imgPin {
+  max-width: 2.03200008cm;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.center {
+  top: -0.50800002cm;
 }
 page:nth-child(7) .resultWrapper .resultListBox .totalScore .totalText {
   white-space: nowrap;

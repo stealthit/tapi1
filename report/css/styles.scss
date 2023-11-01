@@ -1161,7 +1161,11 @@ page:nth-child(11) {
           height: 100%;
           width: 100%;
           border-radius: px-to-cm(50);
-          font-size: px-to-cm(50);
+          font-size: px-to-cm(50);          
+          font-weight: 500;
+          line-height: 1.44;
+          letter-spacing: -1px;
+          color: #404040;
         }
       }
       &:nth-child(2) {
@@ -1188,7 +1192,7 @@ page:nth-child(12) {
       ul.referValue {
         position: absolute;
         width: 100%;
-        top: 0;
+        top: px-to-cm(-25);
         display: flex;
         & > li {
           display: flex;
@@ -1202,12 +1206,13 @@ page:nth-child(12) {
           text-align: center;
           color: #bfbfbf;
           .ruler {
+            order: 1;
             width: px-to-cm(2);
             height: px-to-cm(14);                      
             background-color: #d9d9d9;
             z-index: 2;
           }
-          .rulerValue {height: px-to-cm(29);}
+          .rulerValue {order: 0; height: px-to-cm(25);}
           &:nth-child(1) {margin-left: calc(20% - px-to-cm(14));}
           &:nth-child(2) {margin-left: calc(30% - px-to-cm(28));}
           &:nth-child(3) {margin-left: calc(30% - px-to-cm(28));}
@@ -1223,7 +1228,7 @@ page:nth-child(12) {
             width: px-to-cm(357);
             display: flex;
             flex-direction: column;
-            gap: px-to-cm(18);
+            // gap: px-to-cm(18);
             li {
               &:first-child {
                 height: px-to-cm(65);
@@ -1231,27 +1236,73 @@ page:nth-child(12) {
               &:not(:first-child) {
                 @include flex_center;
                 height: px-to-cm(120);
+                margin-bottom: px-to-cm(18);
                 border-radius: px-to-cm(16);
                 background-color: #7f7f7f;
                 font-size: px-to-cm(40);
                 font-weight: 600;  
                 letter-spacing: px-to-cm(-0.8);  
                 color: #fff;
+                background: #7f7f7f;
               }
               &:nth-child(2) {
                 background-color: #000;
-              }
-              &:nth-child(3) {
-                background: #e6aef9;
-              }
-              &:nth-child(4) {
-                background: #c611ff;
-              }
-              &:nth-child(5) {
-                background: #9300c3;
-              }
+              }     
+              &:last-child {margin-bottom: 0;}        
             }
-          }          
+          }  
+          .chartWrapper {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            font-size: px-to-cm(38);
+            font-weight: 800;              
+            letter-spacing: px-to-cm(-0.76);
+            text-align: center;
+            color: #404040;
+            ul.referDate {
+              height: px-to-cm(45);
+              width: 100%;
+              margin-bottom: px-to-cm(20);
+              display: flex;
+              li {flex: 1;}
+            }
+            ul.dataArea {
+              border-top: px-to-cm(2) solid #d9d9d9;
+              &:last-child {border-bottom: px-to-cm(2) solid #d9d9d9;}
+              // height: px-to-cm(131);
+              flex: 1;
+              width: 100%;
+              display: flex;
+              &:nth-child(2) {color: #000;}
+              &:not(:nth-child(2)) {color: #7f7f7f;}
+              li {
+                position: relative;
+                height: 100%;
+                flex: 1;
+                &:not(:last-child) {border-right: px-to-cm(1) solid #d9d9d94d;}
+
+                & > .point {
+                  position: absolute;
+                  
+                  left: calc(50% - px-to-cm(6.5));
+                  width: px-to-cm(13);
+                  height: px-to-cm(13);
+                  border-radius: 50%;                    
+                  background-color: #000;
+                }
+                & > .data {
+                  position: absolute;
+                  left: 50%;
+                  &:not(.down) {transform: translate(-50%, 90%);}
+
+                  &.down {
+                    transform: translate(-50%, -10%);
+                  }
+                }
+              }
+            }            
+          }        
         }
       }
       // 리더십 분야별 누적 점수

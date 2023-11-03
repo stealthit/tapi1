@@ -121,6 +121,15 @@ body {
       text-align: center;
     }
   }  
+
+  &.others {
+    .content {
+      .highlight {
+        color: $color-others;
+      }
+    }
+    .btn-main {background: $color-others;}
+  }
 }
 
 .message {

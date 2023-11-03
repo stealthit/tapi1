@@ -131,6 +131,12 @@ body {
   padding-top: 76px;
   text-align: center;
 }
+.start2.others .content .highlight {
+  color: #ff9443;
+}
+.start2.others .btn-main {
+  background: #ff9443;
+}
 
 .message {
   padding-top: 0;

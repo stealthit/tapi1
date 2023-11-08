@@ -142,6 +142,15 @@ body {
     text-align: center;
     color: #000;
     span {color: $color-me;}
+
+    &.moveText {
+      margin-top: 40px;
+      font-size: 18px;
+      font-weight: 500;      
+      letter-spacing: -0.36px;
+      text-align: center;
+      color: #7f7f7f;
+    }
   }  
   .content {
     display: flex;
@@ -202,8 +211,10 @@ body {
   .content {
     flex: 1;
     .itemsText{
-      margin-top: 90px;
+      @include flex_center;
+      margin-top: 52px;
       margin-bottom: 45px;
+      height: 80px;
       font-size: 24px;
       font-weight: 800;
       font-stretch: normal;

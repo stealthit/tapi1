@@ -19,12 +19,12 @@
       <div class="itemsText">나는 조직에서 내게 기대하는<br>
         기대치를 명확하게 알고 있다.</div>
       <div class="selectWrap">        
-        <div class="selScore">4</div>
+        <div class="selScore"></div>
         <ul class="fullCircle">
           <li class="scoreOne">1</li>
           <li class="scoreTwo">2</li>
           <li class="scoreThree">3</li>
-          <li class="scoreFour on">4</li>
+          <li class="scoreFour">4</li>
           <li class="scoreFive">5</li>
           <li class="scoreSix">6</li>
           <li class="scoreSeven">7</li>
@@ -36,5 +36,30 @@
     </div>
     <button class="btn-white">이전</button>
   </div>
+
+  <script>
+    // 2023.11.08 요청사항 수정 (선택한 점수 보여주기 및 해당 점수만큼 색상 on 추가)
+    var elSel = document.getElementsByClassName('selScore');    
+    const elScore = document.querySelectorAll(".fullCircle li");
+
+    // setScore(elScore, Number(elSel[0].innerText));
+
+    elScore.forEach((item)=>{
+      item.addEventListener('click',()=>{
+        elScore.forEach((e)=>{            
+          e.classList.remove('on');
+        })
+        selNum = Number(item.innerText);
+        setScore(elScore, selNum);        
+      })
+    })
+
+    function setScore(element,iNum){
+      for (var i = 0; i < iNum; i++) {
+        element[i].classList.add('on');
+      }
+      elSel[0].innerText = iNum;
+    }
+  </script>
 </body>
 </html>

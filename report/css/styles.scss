@@ -12,7 +12,7 @@ page {
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  // box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   &[size="A4"] {  
     width: 21cm;
     height: 29.7cm; 
@@ -670,14 +670,14 @@ ul.fieldItem {
           position: relative;          
           .pinScore {
             position: absolute;
-            top: px-to-cm(-20);            
+            top: 5%;            
             left: 0;
             font-size: px-to-cm(50);
             font-weight: 500;  
             text-align: left;
             color: #9300c3;
             &.center {left: calc(50% - px-to-cm(50));top: px-to-cm(-50)}
-            &.right {left: calc(100% - px-to-cm(105));}
+            &.right {left: 80%;}
           }
           img.imgPin {
             position: absolute;
@@ -785,18 +785,24 @@ ul.fieldItem {
             text-align: center;            
 
             li {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: flex-end;
+              position: relative;
+              // display: flex;
+              // flex-direction: column;
+              // align-items: center;
+              // justify-content: flex-end;
               width: px-to-cm(42);
               .value {
+                position: absolute;
                 width: 100%;
                 height: px-to-cm(40);
               }
               .bar {
+                position: absolute;
+                bottom: 0;
                 width: px-to-cm(28);
                 border-radius: px-to-cm(14) px-to-cm(14) 0 0;
+                left: 50%;
+                transform: translate(-50%);
                 // background: #9300c3;
               }
               &:nth-child(1) {
@@ -957,6 +963,7 @@ page:nth-child(7) {
             img.imgPin {
               max-width: px-to-cm(240);
             }
+            .pinScore {top: -8%;}
             .pinScore.center {
               top: px-to-cm(-60);
             }
@@ -1166,6 +1173,8 @@ page:nth-child(11) {
           line-height: 1.44;
           letter-spacing: -1px;
           color: #404040;
+
+          &::placeholder {color: #cccccc;}
         }
       }
       &:nth-child(2) {
@@ -1308,9 +1317,17 @@ page:nth-child(12) {
       // 리더십 분야별 누적 점수
       &:nth-child(2) {
         .itemBox {
+          position: relative;
           display: flex;
           height: px-to-cm(516);
 
+          .referText {
+            position: absolute;
+            right: px-to-cm(20);
+            bottom: 100%;
+            color: #7f7f7f;
+            font-size: px-to-cm(36);            
+          }
           ul.titleWrapper {
             width: px-to-cm(357);
             li{

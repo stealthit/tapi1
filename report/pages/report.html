@@ -2486,7 +2486,7 @@
             <!-- 값이 50보다 낮은 경우 data class에 down 을 추가 -->
             <!-- ex) <div class="point" style="bottom:40%"></div>
                      <div class="data down" style="bottom:40%">40</div> -->
-            <!-- 점수 평균  -->
+            <!-- 점수 평균  -->            
             <ul class="dataArea">
               <li>
                 <div class="point" style="bottom:64%"></div>
@@ -2518,6 +2518,8 @@
               </li>
               <li></li>
               <li></li>
+              <!-- 2023.11.18 ul.dataArea에 마지막 li 추가(canvas용 li) -->
+              <li><canvas id="canvas1"></canvas></li>
             </ul>            
             <!-- 리더역할 -->
             <ul class="dataArea">
@@ -2551,6 +2553,8 @@
               </li>
               <li></li>
               <li></li>
+              <!-- 2023.11.18 ul.dataArea에 마지막 li 추가(canvas용 li) -->
+              <li><canvas id="canvas2"></canvas></li>
             </ul>   
             <!-- 성과/성장  -->
             <ul class="dataArea">
@@ -2584,6 +2588,8 @@
               </li>
               <li></li>
               <li></li>
+              <!-- 2023.11.18 ul.dataArea에 마지막 li 추가(canvas용 li) -->
+              <li><canvas id="canvas3"></canvas></li>
             </ul>  
              <!--조직  -->
             <ul class="dataArea">
@@ -2617,7 +2623,9 @@
               </li>
               <li></li>
               <li></li>
-            </ul>              
+              <!-- 2023.11.18 ul.dataArea에 마지막 li 추가(canvas용 li) -->
+              <li><canvas id="canvas4"></canvas></li>
+            </ul>                          
           </div>
         </div>        
       </div>
@@ -2775,75 +2783,43 @@
     <section id="pageNum">11</section>
     <section id="pageFooter">© Copyright 2023. TapisRougeGroup all rights reserved.</section>
   </page>
-  <script type="text/javascript">
-  new Chart(document.getElementById("myChart"), {
-  type: 'line',
-  data: {
-    labels: ['23.5.1','23.6.1','23.7.1','23.8.1','23.9.1','23.10.1','23.11.1'],
-    datasets: [{ 
-        data: [64,61,67,68,64,74,71],
-        label: "점수 평균",
-        borderColor: "#000000",
-        fill: false
-      }, 
-      { 
-        data: [51,71,72,70,40,76,61],
-        label: "리더 역할",
-        borderColor: "#e6aef9",
-        fill: false
-      }, { 
-        data: [70,60,68,43,48,72,79],
-        label: "성과/성장",
-        borderColor: "#c611ff",
-        fill: false
-      }, { 
-        data: [49,73,40,69,38,77,60],
-        label: "조직",
-        borderColor: "#9300c3",
-        fill: false
-      }
-    ]
-  },
-  options: {
-    responsive: false,
-    maintainAspectRatio :true,
-    title: {
-      display: false,
-      text: 'World population per region (in millions)'
-    },
-    scales: {
-            xAxes: [{
-                gridLines: {
-                    drawOnChartArea: false
-                },
-                position: 'top',                
-                ticks: {
-                    display: true,
-                    // min: 0,   //y축 최솟값
-                    // max: 100, //y축 최댓값
-                    // stepSize: 100
-                }
-            }],
-            yAxes: [{
-                ticks: {
-                    display: false,
-                    min: 0,   //y축 최솟값
-                    max: 100, //y축 최댓값
-                    stepSize: 20
-                }
-            }],
-        },
-        legend: { // 범례
-            position: 'top',
-            display: false,
-            labels: {
-                usePointStyle: false, // 지정된 포인트 모양에 따라 범례 아이콘 생성
-                boxWidth: 10,
-                padding: 5
-            }
+<!-- 2023.11.18 canvas script 추가 -->
+  <script type="text/javascript">        
+    const allData = document.querySelectorAll('ul.dataArea');
+    const firstData = allData[0].querySelectorAll('li');
+
+    for(let i=0; i<allData.length; i++){
+      const idName = 'canvas' + (i+1).toString();
+      const canvas = document.getElementById(idName);
+      const elData = allData[i].querySelectorAll('li');
+      drawCanvas(canvas,elData);
+    }
+        
+    function drawCanvas(elCvs,elData) { 
+      const ctx = elCvs.getContext('2d');
+      ctx.strokeStyle = '#000';
+      ctx.lineWidth = 2; 
+      
+      const liCnt = elData.length - 1;
+      const liWidth = 300/liCnt/2;
+      const liHeight = 150/elCvs.offsetHeight;
+      
+      ctx.beginPath();
+      for(let i=0; i<liCnt; i++) {
+        const point = elData[i].querySelector('.point');
+        var pointX = 0;
+        var pointY = 0;
+        if (point) {
+          pointX = liWidth*(i*2+1);
+          pointY = point.offsetTop*liHeight + 2.08*liHeight;
+          if (i==0) 
+            ctx.moveTo(pointX, pointY);
+          else  
+            ctx.lineTo(pointX, pointY);
         }
-  }
-});
+      }      
+      ctx.stroke();
+    }    
   </script>
 </body>
 </html>

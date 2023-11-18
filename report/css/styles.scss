@@ -437,10 +437,10 @@ ul.fieldItem {
         }
 
         &:nth-child(even) {
-          .detailTitle {background-color: #ececec;color: #404040;} 
+          .detailTitle {background-color: #ececec;} 
           & > ul.detailItem li {
-            .detailTitle{background-color: #ececec;color: #404040;} 
-            .detailText{color: #404040;}
+            .detailTitle{background-color: #ececec;} 
+            // .detailText{color: #404040;}
           }
         }
       }  
@@ -1277,6 +1277,7 @@ page:nth-child(12) {
               li {flex: 1;}
             }
             ul.dataArea {
+              position: relative;
               border-top: px-to-cm(2) solid #d9d9d9;
               &:last-child {border-bottom: px-to-cm(2) solid #d9d9d9;}
               // height: px-to-cm(131);
@@ -1309,8 +1310,14 @@ page:nth-child(12) {
                     transform: translate(-50%, -10%);
                   }
                 }
+                &:last-child {
+                  position: absolute;
+                  width: 100%;
+
+                  canvas {width: 100%;height: 100%;}
+                }
               }
-            }            
+            }              
           }        
         }
       }

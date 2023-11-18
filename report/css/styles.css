@@ -567,14 +567,9 @@ ul.fieldItem > li:nth-child(3) > ul.itemDetail > li > .subTitle {
 }
 .detailedFieldWrap .fieldBox ul.fieldContent > li:nth-child(even) .detailTitle {
   background-color: #ececec;
-  color: #404040;
 }
 .detailedFieldWrap .fieldBox ul.fieldContent > li:nth-child(even) > ul.detailItem li .detailTitle {
   background-color: #ececec;
-  color: #404040;
-}
-.detailedFieldWrap .fieldBox ul.fieldContent > li:nth-child(even) > ul.detailItem li .detailText {
-  color: #404040;
 }
 
 .summaryWrapper .vLine {
@@ -1422,6 +1417,7 @@ page:nth-child(12) section#content .historyWrapper:nth-child(1) .itemBox .chartW
   flex: 1;
 }
 page:nth-child(12) section#content .historyWrapper:nth-child(1) .itemBox .chartWrapper ul.dataArea {
+  position: relative;
   border-top: 0.016933334cm solid #d9d9d9;
   flex: 1;
   width: 100%;
@@ -1461,6 +1457,14 @@ page:nth-child(12) section#content .historyWrapper:nth-child(1) .itemBox .chartW
 }
 page:nth-child(12) section#content .historyWrapper:nth-child(1) .itemBox .chartWrapper ul.dataArea li > .data.down {
   transform: translate(-50%, -10%);
+}
+page:nth-child(12) section#content .historyWrapper:nth-child(1) .itemBox .chartWrapper ul.dataArea li:last-child {
+  position: absolute;
+  width: 100%;
+}
+page:nth-child(12) section#content .historyWrapper:nth-child(1) .itemBox .chartWrapper ul.dataArea li:last-child canvas {
+  width: 100%;
+  height: 100%;
 }
 page:nth-child(12) section#content .historyWrapper:nth-child(2) .itemBox {
   position: relative;

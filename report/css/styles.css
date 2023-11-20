@@ -802,12 +802,45 @@ ul.fieldItem > li:nth-child(3) > ul.itemDetail > li > .subTitle {
   text-align: left;
   color: #9300c3;
 }
-.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.center {
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt0-10 {
+  left: -20%;
+  top: 75%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt11-20 {
+  left: -17%;
+  top: 45%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt21-30 {
+  left: -8%;
+  top: 20%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt31-40 {
+  left: -15%;
+  top: -8%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt41-50 {
   left: calc(50% - 0.42333335cm);
   top: -0.42333335cm;
 }
-.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.right {
-  left: 80%;
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt51-60 {
+  left: 60%;
+  top: -8%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt61-70 {
+  left: 75%;
+  top: 0;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt71-80 {
+  left: 87%;
+  top: 20%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt81-90 {
+  left: 95%;
+  top: 46%;
+}
+.resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt91-100 {
+  left: 99%;
+  top: 70%;
 }
 .resultWrapper .resultListBox .totalScore .circleGraph .graphValue img.imgPin {
   position: absolute;
@@ -1108,11 +1141,44 @@ page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphV
 page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue img.imgPin {
   max-width: 2.03200008cm;
 }
-page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore {
-  top: -8%;
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt0-10 {
+  left: -25%;
+  top: 75%;
 }
-page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.center {
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt11-20 {
+  left: -22%;
+  top: 40%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt21-30 {
+  left: -12%;
+  top: 10%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt31-40 {
+  left: 5%;
+  top: -15%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt41-50 {
   top: -0.50800002cm;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt51-60 {
+  left: 55%;
+  top: -23%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt61-70 {
+  left: 75%;
+  top: -10%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt71-80 {
+  left: 90%;
+  top: 15%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt81-90 {
+  left: 97%;
+  top: 40%;
+}
+page:nth-child(7) .resultWrapper .resultListBox .totalScore .circleGraph .graphValue .pinScore.scoreTxt91-100 {
+  left: 100%;
+  top: 70%;
 }
 page:nth-child(7) .resultWrapper .resultListBox .totalScore .totalText {
   white-space: nowrap;

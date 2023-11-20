@@ -676,8 +676,18 @@ ul.fieldItem {
             font-weight: 500;  
             text-align: left;
             color: #9300c3;
-            &.center {left: calc(50% - px-to-cm(50));top: px-to-cm(-50)}
-            &.right {left: 80%;}
+            &.scoreTxt0-10 {left:-20%; top:75%;}
+            &.scoreTxt11-20 {left:-17%; top:45%;}
+            &.scoreTxt21-30 {left:-8%; top:20%;}
+            &.scoreTxt31-40 {left:-15%; top:-8%;}
+            &.scoreTxt41-50 {left: calc(50% - px-to-cm(50));top: px-to-cm(-50)}
+            &.scoreTxt51-60 {left:60%; top:-8%;}
+            &.scoreTxt61-70 {left:75%; top:0;}
+            &.scoreTxt71-80 {left:87%; top:20%;}
+            &.scoreTxt81-90 {left:95%; top:46%;}
+            &.scoreTxt91-100 {left:99%; top:70%;}
+            // &.center {left: calc(50% - px-to-cm(50));top: px-to-cm(-50)}
+            // &.right {left: 80%;}
           }
           img.imgPin {
             position: absolute;
@@ -963,9 +973,21 @@ page:nth-child(7) {
             img.imgPin {
               max-width: px-to-cm(240);
             }
-            .pinScore {top: -8%;}
-            .pinScore.center {
-              top: px-to-cm(-60);
+            // .pinScore {top: -8%;}
+            // .pinScore.center {
+            //   top: px-to-cm(-60);
+            // }
+            .pinScore {
+              &.scoreTxt0-10 {left:-25%; top:75%;}
+              &.scoreTxt11-20 {left:-22%; top:40%;}
+              &.scoreTxt21-30 {left:-12%; top:10%;}
+              &.scoreTxt31-40 {left:5%; top:-15%;}
+              &.scoreTxt41-50 {top: px-to-cm(-60);}
+              &.scoreTxt51-60 {left:55%; top:-23%;}
+              &.scoreTxt61-70 {left:75%; top:-10%;}
+              &.scoreTxt71-80 {left:90%; top:15%;}
+              &.scoreTxt81-90 {left:97%; top:40%;}
+              &.scoreTxt91-100 {left:100%; top:70%;}
             }
           }
         }
